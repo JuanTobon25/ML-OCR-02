@@ -1,1 +1,7 @@
-aja
+streamlit
+groq
+easyocr
+Pillow
+numpy
+torch
+torchvision
