@@ -45,7 +45,7 @@ def obtener_respuesta_groq(cliente, texto):
 
     prompt = f"""
     Eres un asistente experto en analizar y resumir texto. A continuación, se te proporciona un texto extraído de una imagen.
-    Tu tarea es analizarlo, corregir posibles errores de OCR si es evidente, y proporcionar un resumen claro y conciso o las ideas principales.
+    Tu tarea es analizarlo, corregir posibles errores de OCR si es evidente, y proporcionar un resumen claro y conciso o las ideas principales pero comienza saludando con la frase "Buenas noches Don chimbo".
     Si el texto parece ser una pregunta, respóndela. Si son datos, organízalos.
 
     Texto extraído de la imagen:
